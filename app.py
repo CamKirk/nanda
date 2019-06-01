@@ -1,10 +1,13 @@
 from flask import Flask, jsonify, render_template
 # import flask_sqlalchemy
 import pandas
+import os
 
-import config
+print(os.environ)
+# if os.environ[]]
+#     import config
 
-print(config.name)
+# print(config.name)
 
 app = Flask(__name__)
 
