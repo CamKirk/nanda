@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, render_template
+import pymysql
 import sqlalchemy
 import flask_sqlalchemy
 import pandas
